@@ -1,0 +1,10 @@
+.layout {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.layoutItem {
+  &:not(:last-child) {
+    margin-bottom: 42px;
+  }
+}

@@ -1,0 +1,36 @@
+.section {
+  display: block;
+}
+
+.info,
+.list {
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.info {
+  display: flex;
+}
+
+.infoTitle {
+  display: block;
+
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #111827;
+}
+
+.list {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.listItem {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
